@@ -100,6 +100,61 @@ y = dias.index('sex') # retorn a primeira posicao do elemento informado
 
 
 
+aluno_1 = ['julio', [8,8.5,3,4], 9, ('seg', 'qua', 'sex')]
+
+dias = aluno_1[3] #('seg', 'qua', 'sex')
+
+# print(dias[2]) # mostrando sex
+
+# declarar lista => [] => os elementos sao separado por virgulas [1,3,6,7]
+
+# declarar tupla => () => os elementos sao separado por virgulas (1,3,6,7)
+
+    # Dicionario
+
+
+# declarar dicionario => {} => os elementos sao separado por virgulas {chave:valor, 'nome': 'julio'}
+
+pessoa = { 'nome': 'Julio', 'idade': 18, 'altura': 1.90}
+
+# print(pessoa['nome']) # acessar informacao da chave nome
+
+# print(pessoa.keys()) # imprime as chaves(keys)
+
+# print(pessoa.values()) # imprime os valores
+
+# print(pessoa.items()) # imprime os items(chaves e valores)
+
+
+endereco = {
+  "cep": "35024-410",
+  "logradouro": "Rua Adrualdo Monte Alto",
+  "complemento": "",
+  "bairro": "Sir",
+  "localidade": "Governador Valadares",
+  "uf": "MG",
+  "ibge": "3127701",
+  "gia": "",
+  "ddd": "33",
+  "siafi": "4553"
+}
+
+curso = {
+    'codigo': 1200,
+    'descrisao': 'Programando em python',
+    'disciplinas': ['variaveis', 'operadores', 'condicionais', 'colecoes'],
+    'esta_ativo': False
+}
+
+# Seu curso esta ativo
+
+if curso['esta_ativo']:
+    print('Esta ativo')
+else:
+    print('Nao esta ativo')
+
+
+
 
 
 
