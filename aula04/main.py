@@ -26,8 +26,8 @@
     obs: verificar as maiores notas primeiro.
 """
 
-from random import random
 
+"""
 
 saque = int(input('Coloque um valor para saque: '))
 
@@ -64,22 +64,96 @@ else:
 
 import random as rn
 
-# var
-# condicionais
-# loops
-# funcoes
-
 from random  import random, randint
-
-
-# funcao
 
 from random import *
 
-# funcoes
-
 # random()
 # randint()
+
+"""
+
+# ESTRUTURA DE REPETICAO - LOOPS
+
+# colecoes(list, tuples, dicts)
+
+colecao = [1, 3, 4, 7, 10]
+
+    # For
+
+pos = 0
+for x in colecao:
+    #print(f'posicao: {pos}, valor: {x}')
+    pos += 1
+
+
+
+for x in range(len(colecao)): #[-10, -9,...,10]
+    if colecao[x] == 4:
+        #print('tem o numero quatro')
+        pass
+
+
+lista = ['julio', 'pereira', 20] 
+
+tamanho = len(lista) # 2
+
+for item in lista:
+    # print(item)
+    pass
+
+
+for vez in range(1,10):
+    pass
+    #print(vez)
+else:
+    pass
+    #print('acabou!!!')
+
+
+notas = {
+    'Ricardo': 8,
+    'Ana': 4,
+    'Vagner': 10,
+    'Alan': 9,
+    'Renato': 4
+}
+
+# notas['Ricardo']
+
+for x in notas.values():
+    # print(x)
+    pass
+
+for x in notas.keys():
+    # print(x)   ('Ricardo', 8)
+    pass
+
+for x in notas.items():
+    if x[0] == 'Ricardo':
+        # print(x[1])
+        pass
+
+for chave,valor in notas.items():
+    # print(f'Chave => {chave}')
+    # print(f'Valor => {valor}')
+
+    if chave != 'Ana':
+       # notas[chave] = notas['Ana']
+       pass
+
+
+#### FOR EM STRING
+
+string = ''
+
+for ch in 'Julio':
+    string += ch + '*'
+
+print(string)
+
+
+
 
 
 
