@@ -26,7 +26,9 @@
     obs: verificar as maiores notas primeiro.
 """
 
-# 10 // 3 = 3 => 
+from random import random
+
+
 saque = int(input('Coloque um valor para saque: '))
 
 dinheiro = saque
@@ -34,6 +36,7 @@ dinheiro = saque
 cedulas = [] 
 
 
+# condicao para realizar saque
 if saque % 5 == 0:
     ced_50 = saque // 50
     cedulas.append(ced_50)
@@ -55,8 +58,29 @@ if saque % 5 == 0:
     print(f'Cedulas 10: {cedulas[2]}')
     print(f'Cedulas 5: {cedulas[3]}')
 
-
+# mensagem de erro caso nao ser possivel realizar saques
 else:
     print('Impossivel realizar saque neste valor. Precisa ser multiplo de 5.')
+
+import random as rn
+
+# var
+# condicionais
+# loops
+# funcoes
+
+from random  import random, randint
+
+
+# funcao
+
+from random import *
+
+# funcoes
+
+# random()
+# randint()
+
+
 
 
