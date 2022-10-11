@@ -164,3 +164,5 @@ def exe_06():
         if numero < numero_aleatorio:
             min = numero + 1
             max = max
+
+
