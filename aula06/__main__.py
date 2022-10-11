@@ -136,8 +136,9 @@ def em_maiusculo(x: str):
 
 cap = lambda x: em_maiusculo(x) 
 
-print(cap('julio'))
+# print(cap('julio'))
 
+import nomes_class
 
 
 
